@@ -61,11 +61,11 @@ const Chat = () => {
                     <Link to='/chat'>Go back</Link>
                 </div>
                 <div className="toppp w-[100rem] fixed bottt bottom-0 h-screen bg-white/40 backdrop-blur-2xl"><br/></div>
-                </section>
+            </section>
 
 
             <section className="h-screen w-screen  bg-white absolute top-0" id='chat'>
-                <div className="w-11/12 lg:w-[50%]  bg-black/[0.15] p-2 pl-3 h-full  m-auto overflow-y-scroll">
+                <div className="w-full lg:w-[50%]  bg-black/[0.15] p-2 pl-3 h-full  m-auto overflow-y-scroll">
                     <div className="w-full backdrop-blur-xl m-auto centerh fixed toppp top-0 bg-white/[0.45] rounded-xl px-12 text-lg py-4 b drop-shadow-xl flex justify-between items-center">
                         <p>Name</p>
                         <Link to='/' className="p-3 text-sm px-6 bg-black rounded-full text-white">Go Home</Link>
@@ -87,9 +87,9 @@ const Chat = () => {
                             <Recieved/>
                             <Sent/>
                         </div>
-                        <form className='relative'>
-                            <input className='outline-none toppp fixed w-[85%] lg:w-[48%] mb-5 border-solid border-[1px] border-white/30 bg-white text-black backdrop-blur-xl rounded-full bottom-0 px-5 py-4 ' type="text" placeholder='Ask here'></input>
-                            <img className='p-3 fixed cursor-pointer -bottom-2 md:-bottom-7 toppp right-[10%] lg:right-[27%]  mb-6 md:mb-11 fixed z-[999]' src={send} alt=''  />
+                        <form className='relative m-auto'>
+                            <input className='outline-none drop-shadow-xl toppp fixed w-11/12 centerh lg:w-[48%] mb-5 border-solid border-[1px] border-white/30 bg-white text-black backdrop-blur-xl rounded-full bottom-0 px-5 py-4 ' type="text" placeholder='Ask here'></input>
+                            <img className='p-3 fixed cursor-pointer -bottom-2 md:-bottom-7 toppp right-[6%] lg:right-[27%]  mb-6 md:mb-11 fixed z-[999]' src={send} alt=''  />
                             <div className="w-full lg:w-[50%] backdrop-blur-xl m-auto centerh fixed  bottom-0 bg-white/[0.45] px-12 text-lg py-6 b drop-shadow-xl flex justify-between items-center">
                                 <p><br/><br/></p>
                             </div>
